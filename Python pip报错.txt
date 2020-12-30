@@ -1,0 +1,4 @@
+当文件夹有中文部分的时候，采用pip安装python模块就会报错
+1. 在site-packages目录下新建sitecustomize.py文件
+2. import sys
+   sys.setdefaultencoding('GB2312')
